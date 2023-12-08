@@ -48,6 +48,49 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/eficiencia"
                 android:layout_marginTop="@android:dimen/app_icon_size"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="330dp"
+                android:text="Back"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                style="@style/Widget.Material3.Button"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="330dp"
+                android:text="Next"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                style="@style/Widget.Material3.Button"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_two"
+            android:layout_gravity="center"
+            android:layout_width="360dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#6A3949AB"
+            app:cardCornerRadius="12dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/card_SUBtitle"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/white"
+                android:textSize="19.2dp"
+                style="@style/TextAppearance.Material3.DisplaySmall"
+                android:text="ECOAPP"/>
 
         </androidx.cardview.widget.CardView>
 
